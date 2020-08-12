@@ -1,8 +1,8 @@
 <?PHP
 $hostname_localhost ="localhost";  //nuestro servidor
-$database_localhost ="caffin";//Nombre de nuestra base de datos
-$username_localhost ="root";//Nombre de usuario de nuestra base de datos (yo utilizo el valor por defecto)
-$password_localhost ="";//Contraseña de nuestra base de datos (yo utilizo por defecto)
+$database_localhost ="id14574288_caffin";//Nombre de nuestra base de datos
+$username_localhost ="id14574288_caffin_ema";//Nombre de usuario de nuestra base de datos (yo utilizo el valor por defecto)
+$password_localhost ="=WkRbPpb4(a>Igr5";//Contraseña de nuestra base de datos (yo utilizo por defecto)
 $localhost = mysql_connect($hostname_localhost,$username_localhost,$password_localhost)//Conexión a nuestro servidor mysql
 or
 trigger_error(mysql_error(),E_USER_ERROR); //mensaaje de error si no se puede conectar

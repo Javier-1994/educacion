@@ -8,9 +8,9 @@ class ConexionMySQL{
 
   public function ConexionMySQL(){
     if(!isset($this->conexion)){
-      $this->conexion = (mysql_connect("localhost","root",""))
+      $this->conexion = (mysql_connect("localhost","id14574288_caffin_ema","=WkRbPpb4(a>Igr5"))
         or die("No se pudo establecer una conexion con el servidor, consulte a Soporte...!");
-      mysql_select_db("caffin",$this->conexion) or die("Ocurrio un problema al seleccionar la base de datos, consulte a Soporte...!");
+      mysql_select_db("id14574288_caffin",$this->conexion) or die("Ocurrio un problema al seleccionar la base de datos, consulte a Soporte...!");
     }
   }
 
